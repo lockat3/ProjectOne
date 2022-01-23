@@ -33,6 +33,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ReusableLibrary {
 	public static WebDriver driver ;
 	public static void setDriver() {
+		System.out.println();
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 	    driver = new ChromeDriver();
